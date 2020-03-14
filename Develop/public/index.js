@@ -1,3 +1,19 @@
+let mongoose = require('mongoose');
+
+mongoose.connect('mongodb://localhost/indexDB', function (err) {
+
+   if (err) throw err;
+
+   console.log('Successfully connected');
+
+});
+
+
+
+
+
+
+
 init();
 
 async function init() {
